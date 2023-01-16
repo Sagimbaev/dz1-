@@ -1,0 +1,37 @@
+.ShopStore_Info_main {
+  width: 700px;
+  text-align: left;
+}
+.childs {
+  width: 710px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+}
+.child_left {
+  border: 1px solid black;
+  border-radius: 5px;
+}
+.child_left > img {
+  width: 200px;
+  height: 200px;
+  border-radius: 5px;
+}
+.child_right {
+  width: 480px;
+}
+.child_right > h3 {
+  font-size: 35px;
+  font-family: "Libre Baskerville", serif;
+}
+.child_right > p {
+  font-size: 25px;
+  font-family: "Dancing Script", cursive;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+.child_right > span {
+  font-size: 30px;
+  font-weight: 900;
+}
